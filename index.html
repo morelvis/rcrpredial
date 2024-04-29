@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Limpeza Terceirizada em Porto Alegre | RCR Predial</title>
+    <meta name="description" content="A RCR Predial presta serviço de limpeza terceirizada em Porto Alegre para empresas e condomínios. Temos planos mensais e por turnos semanais. Nossos preços são tabelados e os contratos são de prazo indeterminado. Pagamos insalubridade a todos funcionários.">
+    <meta name="keywords" content="terceirização, serviços, limpeza de condomínio, limpeza corporativa, limpeza de empresa, limpeza de escritório, limpeza sala comercial, limpeza terceirizada, porto alegre">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <style>
+
+        /* latin */
+        @font-face {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Open Sans Regular"), local("OpenSans-Regular"), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2");
+        }
+        /* latin */
+        @font-face {
+            font-family: "Open Sans ExtraBold";
+            font-style: normal;
+            font-weight: 800;
+            src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2) format("woff2");
+        }
+        /* latin */
+        @font-face {
+            font-family: "Baloo 2";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Baloo 2 Regular"), local("Baloo2-Regular"), url(https://fonts.gstatic.com/s/baloo2/v1/wXKrE3kTposypRyd51jcAA.woff2) format("woff2");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            min-width: 320px;
+            font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+            background: rgb(40,190,90);
+            background: white;
+        }
+        div, img {
+            display: inline-block;
+        }
+        img {
+            vertical-align: top;
+        }
+        a {
+            text-decoration: none;
+        }
+        #header {
+            display: block;
+            height: 88px;
+            overflow: hidden;
+            border-bottom: 1px solid silver;
+        }
+        #header-phone {
+            height: 88px;
+            padding: 35px 0 0 55%;
+            vertical-align: top;
+        }
+        #header-phone-number {
+            padding-left: 10px;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            letter-spacing: 2px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgb(40,190,90);
+        }
+        #promo {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            color: beige;
+            background: red;
+        }
+        #promo p {
+            font-weight: bold;
+        }
+        #big-panel {
+            display: block;
+            width: 100%;
+            height: 300px;
+            border-bottom: 1px solid silver;
+            background: url(images/green-city.jpg) no-repeat 50% 20%;
+            background-size: cover;
+        }
+        #big-panel-text {
+            margin: 120px 0 0 7%;
+        }
+        #big-panel-title {
+            display: inline-block;
+            letter-spacing: 2px;
+            font-family: "Open Sans ExtraBold";
+            font-size: 90px;
+            color: white;
+            text-shadow: 6px 3px rgba(30,30,30,0.4);
+        }
+        #big-panel-subtitle {
+            display: inline-block;
+            margin-top: -10px;
+            font-size: 35px;
+            font-weight: 500;
+            color:  white;
+        }
+        .text {
+            word-break: normal;
+            text-align: justify;
+            text-justify: inter-word;
+            font-family: "baloo 2";
+            font-weight: 500;
+        }
+        .main h1 {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-style: normal;
+            font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            letter-spacing: 2px;
+            color: black;
+        }
+        .main {
+            display: block;
+            width: 100%;
+            padding: 40px 8%;
+            color: #4e4242;
+            font-style: italic;
+            font-size: 20px;
+        }
+        .panel {
+            display: block;
+            width: 100%;
+            color: white;
+            text-align: center;
+            background: rgb(0,90,40);
+        }
+        .panel-left {
+            width: 45%;
+            min-width: 320px;
+            padding-top: 40px;
+            font-family: "open sans", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 60px;
+            vertical-align: top;
+            letter-spacing: 2px;
+            font-weight: 800;
+            color: white;
+            text-shadow: -2px -2px dimgrey;
+        }
+        .panel-right {
+            width: 50%;
+            min-width: 320px;
+            padding: 40px 0 30px 0;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+        #included {
+            display: block;
+            padding: 50px 10%;
+            text-align: center;
+            font-size: 30px;
+        }
+        #tabelas {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .tabela {
+            min-width: 320px;
+            max-width: 100%;
+            padding: 20px 5% 0 5%;
+        }
+        #clientes-barra {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 40px;
+            letter-spacing: 1px;
+            color: white;
+            text-shadow: 1px 1px dimgrey;
+            background: #428b64;
+            background: #87965a; /* golden */
+        }
+        .arrows {
+            display: none;
+            width: 100%;
+            justify-content: space-between;
+            padding: 0 9vw;
+            background: black;
+        }
+        /*
+        .arrows img {
+            width: 25px;
+        }
+        */
+        #clientes-frame {
+            display: block;
+            width: 100%;
+            height: 370px;
+            padding: 10px 0 50px 0;
+            overflow-y: auto;
+            background: darkseagreen;
+            background: url(images/dark-squares.png) no-repeat 50% 50%;
+            background-size: cover;
+            background: rgb(46,139,87);
+        }
+        #clientes {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center; /* baseline; */
+            justify-content: center;
+            max-width: 1500px;
+            min-width: 1300px;
+            margin: 0 auto; /* necessary for large screens */
+        }
+        #sede {
+            display: block;
+            text-align: center;
+            background-color: rgb(24,150,70);
+        }
+        #sede img {
+            width: 100%;
+            max-width: 1500px;        
+        }
+        .cliente {
+            display: inline-block;
+            margin: 40px 50px 0 50px;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            box-shadow: 1px 1px rgba(50,50,50,0.2), -1px -1px rgba(50,50,50,0.2);
+            transition: all .2s ease-in-out;
+        }
+        .cliente:hover {
+            transform: scale(1.1);
+        }
+        #orcamentos {
+            display: block;
+            width: 100%;
+            padding: 80px 5px 40px 5px;
+            text-align: center;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+            color: white;
+            background: rgb(0,90,40);
+        }
+        #vagas {
+            display: block;
+            width: 100%;
+            padding: 40px 5px 40px 5px;
+            text-align: center;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 20px;
+            color: white;
+            background-color: rgb(24,150,70);
+        }
+        #sobre {
+            display: block;
+            width: 100%;
+            padding: 40px 5px 40px 5px;
+            text-align: center;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+            color: white;
+            background: rgb(0,90,40);
+        }
+        #sobre-spacer {
+            display: inline-block;
+            width: 20%;
+            height: 1px;
+        }
+        @media (max-width: 1000px) {
+            #sobre-spacer { width: 100px; }
+        }
+        @media (max-width: 900px) {
+            #sobre-spacer { width: 50px; }
+        }
+        @media (max-width: 820px) {
+            #sobre-spacer { width: 100%; }
+        }
+        .sobre-box {
+            display: inline-block;
+            width: 350px;
+            min-height: 280px;
+            padding-top: 10px;
+            vertical-align: top;
+            border: 1px solid lightgreen;
+        }
+        #map-frame {
+            display: block;
+            width: 100%;
+            background: red;
+            overflow-y: hidden;
+            overflow-x: auto;
+        }
+        #map {
+            display: block;
+            width: 100%; /* see media query */
+            height: 500px;
+            text-align: center;
+            background: url(images/mapa-alcides-gonzaga.jpg) no-repeat 70% 50%;
+            background-size: cover;
+        }
+        footer {
+            display: block;
+            width: 100%;
+            padding: 12px 0 10px 0;
+            text-align: center;
+            font-family: "baloo 2", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 16px;
+            color: white;
+            background: rgb(0,90,40);
+        }
+        .footer-break {
+            display: none;
+        }
+        .whatsapp-icon {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            margin: 10px auto;
+            animation: wia 3s infinite;
+        }
+        /*****************************/
+        /*  whatsapp icon animation  */
+        /*****************************/
+        @keyframes wia {
+            35% { transform: scale(1); }
+            45% { transform: scale(1.5); }
+            55% { transform: scale(1); }
+            65% { transform: scale(1.3); }
+            75% { transform: scale(1); }
+        }
+
+
+        /**************************************************************
+                                MEDIA QUERY
+        ***************************************************************/
+
+        @media (max-width: 1300px) {
+            #map { width: 1366px; }
+            #arrows-map { display: flex; }
+            #arrows-clientes { display: flex; }
+        }
+        @media (max-width: 1200px) {
+            #header-phone { padding-left: 50%; }
+        }
+        @media (max-width: 1100px) {
+            #header-phone { padding-left: 45%; }
+        }
+        @media (max-width: 1000px) {
+            #header-phone { padding-left: 37%; }
+            #big-panel { background-size: auto; }
+            #big-panel-text { margin-top: 150px; }
+            #big-panel-title { font-size: 70px; }
+            #big-panel-subtitle { font-size: 30px; }
+            #clientes-barra { font-size: 25px; padding: 12px; }
+            .panel-left  { font-size: 50px; }
+            .panel-right { font-size: 16px; }
+        }
+        @media (max-width: 900px) {
+            #header-phone { padding-left: 33%; }
+        }
+        @media (max-width: 800px) {
+            #header-phone { padding-left: 25%; }
+            #big-panel-title { font-size: 60px; }
+            #big-panel-subtitle { font-size: 25px; }
+        }
+        @media (max-width: 700px) {
+            #header-phone  { padding-left: 15%; }
+            .panel-left  { font-size: 40px; }
+            .panel-right { font-size: 14px; }
+            .footer-spacer { display: none; }
+            .footer-break  { display: inline-block; }
+        }
+        @media (max-width: 640px) {
+            #clientes  { min-width: 1250px; }
+        }
+        @media (max-width: 600px) {
+            #header-phone   { display: none; }
+            #phone-number { display: none; }
+            #big-panel-title { font-size: 50px; }
+            #big-panel-subtitle { font-size: 25px; }
+        }
+        @media (max-width: 500px) {
+            #big-panel-title { font-size: 40px; }
+            #big-panel-subtitle { font-size: 20px; }
+            .panel-left  { font-size: 30px; }
+            .panel-right { font-size: 12px; }
+        }
+        @media (max-width: 414px) {
+            #clientes  { min-width: 1330px; }
+        }
+        @media (max-width: 400px) {
+            .tabela { padding: 20px 0 0 0; }
+        }
+        @media (max-width: 375px) {
+            #clientes  { min-width: 1280px; }
+        }
+        @media (max-width: 360px) {
+            #clientes  { min-width: 1270px; }
+        }
+        @media (max-width: 320px) {
+            #clientes  { min-width: 1223px; }
+        }
+     </style>
+</head>
+<body>
+
+
+    <div id="header">
+        
+        <img src="images/logo-rcrpredial.png" alt="RCR Predial - Limpeza Terceirizada">
+    
+        <div id="header-phone">
+        
+            <img src="images/icon-phone.png" alt="Telefone">
+            
+            <div id="header-phone-number">(51)&nbsp; 3328-5599</div>
+            
+        </div>        
+    </div>
+
+
+    <div id="promo">
+        <!--h1>Experimente um mês de GRAÇA sem compromisso</h1>
+        <p>
+            Promoção válida até 31 de Dezembro para CONDOMÍNIOS que contratam um turno por semana
+            <br>
+            Entre em contrato e conheça outras promoções
+        </p-->
+        <h1>Temos Alguns Turnos em Promoção!</h1>
+        <h2>Entre em Contato</h2>
+    </div>
+    
+    
+    <div id="big-panel">
+        <div id="big-panel-text" style="text-align:center;">
+            <h1 id="big-panel-title">LIMPEZA 4h</h1><br>
+            <h2 id="big-panel-subtitle">para empresas e condomínios</h2>
+        </div>
+    </div><br><br>
+    
+    
+    <div class="main text">
+        <h1>Limpeza Terceirizada</h1>
+        <br>
+        A RCR Predial, desde 2016, é uma empresa de limpeza terceirizada para escritórios, consultórios e condomínios em Porto Alegre - RS. Obedecemos rigorosamente à legislação. Pagamos adicional de insalubridade a todos funcionários. Não tivemos ação reclamatória trabalhista. Divulgamos a tabela de preços no site. Nossos contratos são de prazo indeterminado. Tendo a ética como nosso norte, focamos na satisfação do cliente.
+    </div><br>
+    
+    
+    <div class="panel">
+    
+        <div class="panel-left">
+            Limpeza de<br>
+            empresas &nbsp;e<br>
+            condomínios<br>
+        </div>
+        
+        <div class="panel-right text">
+            <div style="text-align:center;">
+                <br>
+                Combine diversos turnos de 4 horas em um plano de<br>
+                limpeza semanal ideal para as suas necessidades.<br><br>
+                Exemplos:<br>
+                manhãs de 3ª e 5ª<br>
+                tardes de 2ª, 4ª e 6ª<br>
+                manhã e tarde de 4ª<br><br>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <div id="included">Os preços das tabelas já incluem todos os tributos</div>
+    
+    <div id="tabelas">
+        <img class="tabela" src="images/tabela-2024-4h.png" alt="Tabela Limpeza 4h" title="Tabela Limpeza 4h"><img class="tabela" src="images/tabela-2024-8h.png" alt="Tabela Limpeza 8h" title="Tabela Limpeza 8h"><!-- img class="tabela" src="images/tabela-2022-44h.png" alt="Tabela Limpeza 44h" title="Tabela Limpeza 44h" -->
+    </div>
+    
+    
+    <div id="clientes-barra">
+        Mais de 100 clientes satisfeitos
+    </div>
+    
+    <div class="arrows" id="arrows-clientes">
+        <img alt="icon arrow left" src="images/icon-arrow-left.png">
+        <img alt="icon arrow right" src="images/icon-arrow-right.png">
+    </div>
+    
+    
+    <div id="clientes-frame">
+        <div id="clientes">
+            <a href="http://www.4cinco.com/" target="_blank">
+            	<img class="cliente" src="images/icon-4cinco.png" alt="4cinco" title="4cinco">
+            </a>
+            <a href="https://www.bodipasa.com.br/" target="_blank">
+            	<img class="cliente" src="images/icon-bodipasa.png" alt="Bodipasa" title="Bodipasa">
+            </a>
+            <a href="https://hansaflexbrasil.com.br/" target="_blank">
+            	<img class="cliente" src="images/icon-hansaflex.png" alt="Hansa-Flex" title="Hansa-Flex">
+            </a>
+            <a href="https://portoalegre.clinicaadventista.org.br/" target="_blank">
+            	<img class="cliente" src="images/icon-clinica-adventista.png" alt="Clínica Adventista" title="Clínica Adventista">
+            </a>
+            <a href="http://www.trevisa.com.br/navegacao-alianca/navegacao-alianca-apresentacao/" target="_blank">
+            	<img class="cliente" src="images/icon-trevisa.png" alt="Navegação Aliança" title="Navegação Aliança">
+            </a>
+            <a href="https://www.mecomo.com/pt-br" target="_blank">
+            	<img class="cliente" src="images/icon-mecomo.png" alt="Mecomo" title="Mecomo">
+            </a>
+            <a href="https://www.medicalway.com.br/" target="_blank">
+            	<img class="cliente" src="images/icon-medicalway.png" alt="Medicalway" title="Medicalway">
+            </a>
+            <a href="https://www.miradordiesel.com.br/" target="_blank">
+                <img class="cliente" src="images/icon-mirador.png" alt="Mirador Diesel" title="Mirador Diesel">
+            </a>
+            <a href="https://www.teletrago.com.br/" target="_blank">
+                <img class="cliente" src="images/icon-teletrago.png" alt="Tele Trago" title="Tele Trago">
+            </a>
+            <img class="cliente" src="images/icon-plazagoethe.png" alt="Ed Plaza Goethe" title="Ed Plaza Goethe">
+            <a href="https://www.schenkel.com.br/" target="_blank">
+                <img class="cliente" src="images/icon-schenkel.png" alt="Schenkel" title="Schenkel">
+            </a>
+            <a href="https://upworks.cc/" target="_blank">
+                <img class="cliente" src="images/icon-upworks.png" alt="upworks" title="upworks">
+            </a>
+        </div>
+    </div>
+    
+    
+    <div id="orcamentos">
+    
+        <i><b>Orçamentos</b></i><br>        
+        
+        <a class="whatsapp-link" target="_blank" href="https://web.whatsapp.com/send?phone=5551992440720&amp;text=Ol%C3%A1%20RCR%20Predial!%20Desejo%20informa%C3%A7%C3%B5es!">
+        
+            <span class="whatsapp-icon"><svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" version="1.1" viewBox="0 0 24 24" width="100%" xml:space="preserve"><rect height="24" id="Artboard1" style="fill:none;" width="24" x="0" y="0"></rect><g><g><path d="M4.018,17.048c-0.96,-1.484 -1.518,-3.253 -1.518,-5.151c0,-5.243 4.257,-9.5 9.5,-9.5c5.243,0 9.5,4.257 9.5,9.5c0,5.243 -4.257,9.5 -9.5,9.5c-1.777,0 -3.44,-0.489 -4.863,-1.339l-4.637,1.545l1.518,-4.555Z" style="fill:#f3f3f3;"></path><path d="M5.795,16.304c-0.886,-1.244 -1.407,-2.765 -1.407,-4.407c0,-4.201 3.411,-7.612 7.612,-7.612c4.201,0 7.612,3.411 7.612,7.612c0,4.201 -3.411,7.611 -7.612,7.611c-1.59,0 -3.066,-0.488 -4.288,-1.323l-2.862,0.954l0.945,-2.835Z" style="fill:#00a82d;"></path></g><path d="M9.714,13.873c-1.124,-1.374 -1.874,-3.056 -2.109,-4.88c-0.063,-0.508 0.106,-1.018 0.461,-1.387c0.355,-0.369 0.858,-0.558 1.368,-0.515l0.049,0.005c0,0 0.561,0.15 0.868,0.233c0.122,0.033 0.219,0.124 0.26,0.243c0.138,0.41 0.464,1.373 0.618,1.826c0.05,0.147 0.004,0.31 -0.114,0.41c-0.233,0.196 -0.618,0.52 -0.858,0.723c-0.129,0.109 -0.17,0.29 -0.1,0.443c0.279,0.608 0.635,1.176 1.057,1.69c0.434,0.502 0.933,0.949 1.485,1.327c0.14,0.095 0.325,0.085 0.454,-0.024c0.241,-0.202 0.626,-0.526 0.858,-0.722c0.119,-0.1 0.287,-0.117 0.424,-0.043c0.42,0.228 1.314,0.712 1.694,0.918c0.111,0.06 0.185,0.172 0.196,0.297c0.029,0.317 0.083,0.895 0.083,0.895l-0.004,0.049c-0.044,0.51 -0.315,0.974 -0.739,1.261c-0.424,0.288 -0.955,0.368 -1.445,0.22c-1.772,-0.545 -3.313,-1.581 -4.479,-2.937l-0.027,-0.032Z" style="fill:#f3f3f3;"></path></g></svg></span><br>
+            
+            <i style="font-size:16px; color: beige;">clique no ícone WhatsApp</i>
+            
+        </a><br>
+
+        <span style="font-size: 20px"><b> &nbsp;(51) &nbsp; 99244-0720</b></span><br><br>            
+    </div>
+
+
+    <div id="vagas"><b><i>TEMOS VAGAS<br>Envie seus dados para&nbsp; vagas.rcrpredial@gmail.com</i></b></div>
+        
+
+    <div id="sobre">
+
+        <div class="sobre-box">
+            <br>
+            <img id="telephone" src="images/icon-phone.png" alt="Telefone">
+
+            <span style="font-size: 20px"><b> &nbsp;(51) &nbsp; 3328-5599</b></span><br><br>
+
+            <img src="images/icon-mobile.png" alt="Mobile">
+
+            <span style="font-size: 20px"><b> &nbsp;(51) &nbsp; 99244-0720</b></span><br><br>
+            
+            <img src="images/icon-mobile.png" alt="Mobile">
+
+            <span style="font-size: 20px"><b> &nbsp;(51) &nbsp; 99334-8505</b></span><br><br>
+
+            <img id="email" src="images/icon-email.png" alt="EMail">
+
+            <span style="font-size: 20px"><b><i> &nbsp; &nbsp; contato@rcrpredial.com</i></b></span>
+        </div>
+        
+        <div id="sobre-spacer"></div>
+        
+        <div class="sobre-box">
+            <br>
+            <span style="font-size: 22px">RCR Predial Limitada EPP</span><br>
+            
+            <span style="font-size: 16px">CNPJ 24.875.687.0001-77<br>
+                CRA-RS 003879<br><br>
+                Rua Alcides Gonzaga 240<br>
+                Bairro Boa Vista<br>
+                CEP 90480-020 &nbsp; &nbsp; Porto Alegre - RS<br>
+            </span>
+        </div>
+        
+    </div>
+    
+    
+    <div id="sede">
+        <img src="images/rcr-sede.jpg" alt="nossa sede - Rua Alcides Gonzaga 240">    
+    </div>  
+    
+    
+    <div class="arrows" id="arrows-map">
+        <img alt="icon arrow left" src="images/icon-arrow-left.png">
+        <img alt="icon arrow right" src="images/icon-arrow-right.png">
+    </div>
+    
+    <div id="map-frame">
+        <a id="map" href="https://www.google.com/maps/place/R.+Alcides+Gonzaga,+240+-+Boa+Vista,+Porto+Alegre+-+RS,+90480-020" target="_blank">
+        </a>
+    </div>
+    
+    
+    <footer>
+        Responsável Técnico<span class="footer-spacer"> &nbsp; | &nbsp; </span><br class="footer-break">
+        Administrador Roberto Moreira<span class="footer-spacer"> &nbsp; | &nbsp; </span><br class="footer-break">
+        CRA-RS 049980
+    </footer>
+    
+    
+<script>
+"use strict"
+
+// main ///////////////////////////////////////////////////////////////////////
+
+var whatsAppSvgIcon = '<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" version="1.1" viewBox="0 0 24 24" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><rect height="24" id="Artboard1" style="fill:none;" width="24" x="0" y="0"/><g><g><path d="M4.018,17.048c-0.96,-1.484 -1.518,-3.253 -1.518,-5.151c0,-5.243 4.257,-9.5 9.5,-9.5c5.243,0 9.5,4.257 9.5,9.5c0,5.243 -4.257,9.5 -9.5,9.5c-1.777,0 -3.44,-0.489 -4.863,-1.339l-4.637,1.545l1.518,-4.555Z" style="fill:#f3f3f3;"/><path d="M5.795,16.304c-0.886,-1.244 -1.407,-2.765 -1.407,-4.407c0,-4.201 3.411,-7.612 7.612,-7.612c4.201,0 7.612,3.411 7.612,7.612c0,4.201 -3.411,7.611 -7.612,7.611c-1.59,0 -3.066,-0.488 -4.288,-1.323l-2.862,0.954l0.945,-2.835Z" style="fill:#00a82d;"/></g><path d="M9.714,13.873c-1.124,-1.374 -1.874,-3.056 -2.109,-4.88c-0.063,-0.508 0.106,-1.018 0.461,-1.387c0.355,-0.369 0.858,-0.558 1.368,-0.515l0.049,0.005c0,0 0.561,0.15 0.868,0.233c0.122,0.033 0.219,0.124 0.26,0.243c0.138,0.41 0.464,1.373 0.618,1.826c0.05,0.147 0.004,0.31 -0.114,0.41c-0.233,0.196 -0.618,0.52 -0.858,0.723c-0.129,0.109 -0.17,0.29 -0.1,0.443c0.279,0.608 0.635,1.176 1.057,1.69c0.434,0.502 0.933,0.949 1.485,1.327c0.14,0.095 0.325,0.085 0.454,-0.024c0.241,-0.202 0.626,-0.526 0.858,-0.722c0.119,-0.1 0.287,-0.117 0.424,-0.043c0.42,0.228 1.314,0.712 1.694,0.918c0.111,0.06 0.185,0.172 0.196,0.297c0.029,0.317 0.083,0.895 0.083,0.895l-0.004,0.049c-0.044,0.51 -0.315,0.974 -0.739,1.261c-0.424,0.288 -0.955,0.368 -1.445,0.22c-1.772,-0.545 -3.313,-1.581 -4.479,-2.937l-0.027,-0.032Z" style="fill:#f3f3f3;"/></g></svg>'
+
+
+var images = {}
+var imagesToLoad = 0
+
+// load images ////////////////////////////////////////////////////////////////
+
+function loadImage(name, src) {
+    imagesToLoad += 1
+    var img = new Image()
+    img.onload = function () { loaded(name, img) }
+    img.src = src
+    // loaded
+    function loaded(name, img) {
+        imagesToLoad -= 1
+        var cnv = document.createElement("canvas")
+        cnv.width = img.width
+        cnv.height = img.height
+        cnv.getContext("2d").drawImage(img, 0, 0)
+        //
+        images[name] = cnv
+    }
+}
+
+// main ///////////////////////////////////////////////////////////////////////
+
+function main() {
+    processWhatsAppIcons()
+    processWhatsAppLinks()
+    //
+    document.getElementById("map-frame").scrollLeft = 700 // adjusts map scroll-x
+    //
+ // loadImage("rcrbg", "images/rcrbg.jpg")
+    goOn()
+}
+
+function goOn() {
+    if (imagesToLoad == 0) { mainLoop(); return; }
+    setTimeout(goOn, 10)
+}
+
+function mainLoop() {
+    // no animation
+ // requestAnimationFrame(mainLoop)
+}
+
+// whatsapp ///////////////////////////////////////////////////////////////////
+
+function processWhatsAppIcons() {
+    var elements = document.getElementsByClassName("whatsapp-icon")
+    for (var e of elements) { e.innerHTML = whatsAppSvgIcon }
+}
+
+function processWhatsAppLinks() {
+    var href = "https://"
+    href += isMobileDevice() ? "api" : "web"
+    href += ".whatsapp.com/send?phone=5551992440720&text=Ol%C3%A1%20RCR%20Predial!%20Desejo%20informa%C3%A7%C3%B5es!"
+
+    var anchors = document.getElementsByClassName("whatsapp-link")
+    for (var a of anchors) { a.href = href }
+}
+
+// device /////////////////////////////////////////////////////////////////////
+
+function isMobileDevice() {
+    return (typeof window.orientation != "undefined")
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+main()
+</script>
+</body>
+</html>
